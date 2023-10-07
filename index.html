@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GST Calculator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="gstCalculator">
+        <h1 class="heading">GST Calculator</h1>
+
+    <div>
+        <label for="input">Enter Converting Price : </label> <input type="number" name="" id="input" />
+    </div>
+        <div>
+            <label for="gstDrop">GST(In Percentage) :</label>
+            <select name="" id="gstDrop">
+                <option class="option" value="5">5%</option>
+                <option class="option" value="12">12%</option>
+                <option class="option" value="18">18%</option>
+                <option class="option" value="28">28%</option>
+            </select>
+        </div>
+        <button id="gstHandler">Calculate</button>
+    </div>
+    <div id="gstPrice"></div>
+    <script src="index.js"></script>
+    <!-- <script type="module" src="index.js"></script> -->
+</body>
+
+</html>
